@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="shortcut icon" href="img/feron_logo.jpg" title="Favicon">
+      <!-- Font-Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <!-- Animate -->
+      <link rel="stylesheet" href="css/animate.min.css">
+      <!-- Main CSS -->
+      <link rel="stylesheet" href="css/style.css">
+    
+      <!-- Jquery CDN -->
+      <script
+      src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/scrollreveal.min.js">
+      </script>
+        <script>
+        $(document).ready(function(){
+            $('.icon').click(function(){
+                $('.icon').toggleClass('active');
+            })
+        })
+    </script>
+      <title>Feron | Autoindustrija</title>
+    </head>
+<body>	 
+		<!-- Website Header -->
+		<header id="fn-header">
+      <div class="container topp-navbar">
+          <div class="row">
+            <div class="col-md-6 float-left">
+              <ul>             
+              <li><a href="mailto:>office@jobs-feron.com">office@jobs-feron.com<i class="far fa-envelope"></i></a></li>
+              <li> +381 11 36 11 231<i class="fone fas fa-phone"></i> </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="float-right icon-zoom icon-circle">
+                  <li><a href="https://www.facebook.com/feronemployment" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="https://www.instagram.com/feron.employment/" target="_blank" title="feron.employment"><i class="fab fa-instagram" ></i></a></li>
+                  <li><a href="http://www.linkedin.com/company/2931225?trk=prof-exp-company-name" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a class="button" href="#popup2"><i class="fab fa-skype" title="callferon"></i></a></li>
+                  <li><a href="https://twitter.com/Feronemployment" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+            <!-- Main Navigation -->
+			<nav>
+				<div class="fn-container fn-align-center">
+          <div class="logo"><a href="srbindex.html"><img src="img/logo.png" alt="FERON"></a>
+          </div>
+          <!-- <div class="search-box">
+              <input class="search-txt" type="text" placeholder="Type to search">
+              <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </div> -->
+					<ul class="fn-navigation">
+						<li><a class="fn-section-link" href="#find_a_job">Pronađji Posao</a></li>
+            <li><a class="button" href="#popup1">Cv Aplikacija</a></li>
+            <li><a href="srbindex.html#fn-faq">FAQ</a></li>
+						<li><a class="fn-section-link" href="#fn-about">O Nama</a></li>
+            <li><a class="fn-section-link" href="#tamno">Kontakt</a></li>
+            <li><a href="autoeng.html#jobs-eng" class="" type="zastava"><img src="img/gb.png" title="English" alt="serbia"></a></li>
+            <!-- <li><a href="#" type="zastava"><img src="img/nemacka.png" title="Germany" alt="Germany"></a></li> -->
+          </ul>
+          <div class="icon">
+            <div class="fn-nav-toggle">
+            </div>
+        </div>
+				</div>
+      </nav>
+      <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="caption">
+              <h1 class="animated fadeInLeftBig">Da li želite da radite na luksuznim rečnim brodovima i posetite najlepše
+                evropske destinacije? </h1>
+              <p class="animated fadeInRightBig">Rečni Brodovi</p>
+              <a class="btn btn-start animated fadeInUpBig" href="jobsrb.html#jobs-eng">Otvorene pozicije</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="caption">
+              <h1 class="animated fadeInLeftBig">Vredni ste, želite da radite u inostranstvu i zanima Vas autoindustrija?
+                Pogledajte našu ponudu.</h1>
+              <p class="animated fadeInRightBig">Autoindustrija</p>
+              <a data-scroll class="btn btn-start animated fadeInUpBig" href="autosrb.html#jobs-eng">Otvorene pozicije</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="caption">
+              <h1 class="animated fadeInLeftBig">Ambiciozni ste i želite da gradite karijeru na najlepšim destinacijama na
+                svetu?</h1>
+              <p class="animated fadeInRightBig">Bliski Istok</p>
+              <a data-scroll class="btn btn-start animated fadeInUpBig fn-section-link" href="#find_a_job">Otvorene pozicije</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="caption">
+              <h1 class="animated fadeInLeftBig">Ako ste u potrazi za novom avanturom, želite da istražite svet i
+                druge kulture, možemo Vam ponuditi posao na najboljim preko-okeanskim
+                kompanijama.</h1>
+              <p class="animated fadeInRightBig">Preko-okeanski brodovi</p>
+              <a data-scroll class="btn btn-start animated fadeInUpBig" href="oceansrb.html#jobs-eng">Otvorene pozicije</a>
+            </div>
+          </div>
+        </div>
+        <a class="left-control" href="#home-slider" data-slide="prev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a class="right-control" href="#home-slider" data-slide="next"><i class="fas fa-chevron-circle-right"></i></a>
+        <svg class="arrows">
+          <path class="a1" d="M0 0 L30 32 L60 0"></path>
+          <path class="a2" d="M0 20 L30 52 L60 20"></path>
+          <path class="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg>
+        <a><i class="fa fa-angle-down fn-section-link" href="#find_a_job"></i></a>
+        <!--/#home-slider-->     
+      </div>
+    </header>
+    <!-- Scroll-to-Top -->
+    <a href="#" class="scrollup"><i class="far fa-arrow-alt-circle-up"></i></a>
+    <!-- CV-POPUP -->
+    <div id="popup1" class="overlay">
+        <div class="popup">
+          <h2 class="lightblue-main">Da li ste već popunili CV Aplikaciju</h2>
+          <a class="close" href="#"><i class="fas fa-times-circle"></i></a>
+          <div class="content center">
+              <a class="btn btn-info btn-lg" id="yes" role="button" data-toggle="collapse" data-target="#target">Da</a>
+              <a class="btn btn-info btn-lg" href="http://cvapp.feron.rs/create" target="_blank">Ne</a>
+              <div class="text collapse" id="target">
+                  <p>Ukoliko ste se već prijavili
+                      molimo Vas da nas kontaktirate i informišete se o trenutno otvorenim pozicijama. Naši
+                      operateri će Vam dati više informacija i odgovoriti na sva pitanja.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div id="popup2" class="overlay">
+        <div class="popuptwo">
+          <h2 class="lightblue-main">Ukoliko imate pitanja za nas možete nas kontaktirati i putem Skype-a:</h2>
+          <p>vesna.feron <br>
+            slađana.feron <br>
+            katarina.feron</p>
+          <a class="close" href="#"><i class="fas fa-times-circle"></i></a>
+          <div class="content center">
+              <a href="#" class="btn btn-info btn-lg" role="button">OK</a>
+          </div>
+        </div>
+      </div>
+ <!-- Scroll-to-Top -->
+ <a href="#" class="scrollup"><i class="far fa-arrow-alt-circle-up"></i></a>
+  <br>
+  <br>
+  <div id="jobs-eng" class="container-fluid box-accordion faq-main">
+<br>
+<br>
+    <h3 class="jobs-h3-text-center">
+        Ako ste vredni i želite da radite za najpoznatije kompanije u autoindustriji pošaljite CV na <span class="greencolor"> posao@feron.rs</span>
+    </h3>
+    <h3 class="jobs-h3-text-center">
+       Otvorene pozicije:
+    </h3>
+
+<br>
+<br>
+    <button class="accordion is-open"> <span class="lightblue">
+        Operater u proizvodnji </span></button>
+    <div class="accordion-content">
+     <div class="col-md-12">
+       <br>     
+        <ul class="automotive">
+          <li>1) Plaćeni troskovi prevoza Beograd – Česka – Beograd</li>
+          <li>2) Obezbeđen smeštaj</li>
+          <li>3) Pokriveno zdravstveno osiguranje</li>
+          <li>4) Obezbeđena radna dozvola</li>       
+        </ul>
+        <br>
+      </ul>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+ <!-- Main Content -->
+ <div class="container-fluid  tamno max" id="find_a_job">
+    <div class="row">
+        <div class="col-md-12 text-center">
+           <br>
+           <div class="box">
+             <h2>Pronađi Posao</h2>
+             <hr class="whitee">
+           </div>             
+           <br>
+           <br>
+        </div>
+    </div>
+  </div>
+        <div class="container-fluid tamno max">
+    <div class="row">
+  <div class="col-sm-12 col-md-6">
+    <div class="thumbnail karta showcase-left">
+      <a href="jobs.html#jobs-eng" target="_blank"><img src="img/pexels-photo-326840-river-ship.jpg" alt="slika"></a>
+      <div class="caption">
+        <h2 class="center bliski_istok">Rečni Brodovi</h2>
+        <p class="tekstkarta">Ako želite da iskusite rad sa ljudima iz različitih zemalja, da putujete
+          Evropom a ujedno zarađujete, da imate obezbeđen smeštaj i hranu, da iskusite novi način života, rečni brodovi su pravi izbor za Vas! Dunav, Rajna, Majna,
+          Sena, Duouro čekaju na Vas, zaplovite u novu karijeru!</p> 
+        <button class="accordion-main">
+          <a href="jobsrb.html#jobs-eng" class="btntwo btn btn-info btn-lg" role="button">Više informacija</a>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6">
+    <div class="thumbnail karta showcase-right">
+        <img src="img/Bliski-Istok.jpg" alt="Bliski Istok">
+      <div class="caption">
+        <h2 class="center bliski_istok">Bliski Istok</h2>
+        <p class="tekstkarta">Rad za jednu od ekonomski najdobrostojećih regija na svetu ne samo da
+          prestavlja privilegiju već i sjajnu mogućnost za razvoj uspešne karijere. Ako ste vredni,
+          želite da se dokažete, imate želju da napređujete kako na ličnom, tako i na
+          profesionalnom planu, izabrali ste pravo mesto!</p>
+        <!-- <h3>Open Positions:</h3>
+        <br>    
+         <div class="table"> 
+            <table>
+              <tr>
+                <th>Positions</th>
+                <td>Waiter/ess</td>
+                <td>Barmen</td>
+                <td>Hostes</td>
+              </tr>
+              <tr>
+                <th>Salary</th> 
+                <td>300 – 700 $</td>
+                <td>300 – 700 $</td>
+                <td>300 – 700 $</td>
+              </tr>
+              <tr>
+               <th class="border_none">Location</th>     
+               <td class="border_none">UAE</td>
+               <td class="border_none">UAE</td>
+               <td class="border_none">UAE</td>
+              </tr>  
+            </table>
+          </div> -->
+          <button class="accordion-main is-open" title="NEW OPENINGS COMING SOON"><span class="lightblue-main automotive-industry-btn btntwo btn btn-info btn-lg">
+             Više informacija</span></button>
+          <div class="accordion-content-main">
+            <br>
+            <!-- <p> If you are hard working, willing to prove yourself, if
+                you have a strong desire for achievement and you want to improve your resume with work experience from the Middle East, send us your CV in English and soon you will be contacted by the operator who will
+                point out the existing possibilities.</p> -->
+            <p>Uskoro nova otvaranja!</p>
+            <br>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="container-fluid tamno max">
+    <div class="row">
+<div class="col-sm-12 col-md-6">
+  <div class="thumbnail karta showcase-left">
+      <a href="oceansrb.html#jobs-eng"> <img src="img/background07.jpg" alt="slika"></a>
+    <div class="caption">
+      <h2 class="center bliski_istok">Preko-okeanski brodovi</h2>
+      <p class="tekstkarta">
+          Ako ste željni avanture i želite da istražite svet, možemo Vam
+          ponuditi rad na najboljim preko-okeanskim kompanijama na svetu. Ne propustite priliku
+          da radite na luksuznim preko-okeanskim kruzerima, proputujete svet, radite u multi-
+          etničkom okruženju i steknete nezaboravna iskustva.
+          </p>
+          <button class="accordion-main">
+              <a href="oceaneng.html#jobs-eng" class="btntwo btn btn-info btn-lg" role="button">  Više informacija</a>
+            </button>
+</div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-6">
+  <div class="thumbnail karta showcase-right">
+   <a href="autosrb.html#jobs-eng"><img src="img/prague.jpg" alt="slika"></a> 
+    <div class="caption">
+
+      <h2 class="center bliski_istok">Autoindustrija</h2>
+      <p class="tekstkarta">
+          Tokom proteklih godinu dana agencija Feron je napravila značajan
+          iskorak napred i omogućila hiljadama ljudi iz Srbije da se zaposli u Českoj. Ako ste
+          vredni, želite da radite u inostranstvu, interesuje Vas autoindustrija, onda smo sigurni da
+          ćemo i pravi posao za Vas!
+      </p> 
+      <button class="accordion-main">
+          <a href="autosrb.html#jobs-eng" class="btntwo btn btn-info btn-lg" role="button"> Više informacija</a>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <!-- /About us -->
+<!-- CV aplication -->
+<!-- <div class="container-fluid tamno max" id="fn-cv">
+<div class="row">
+  <div class="col-sm-12 aplication">
+    <h2 class="text-center"><span class="boja">Useful Tips</span></h2>
+    <hr class="whitee">
+    <br>
+    <br>
+    <p>Most of young people believe that in Serbia today is unthinkable to get a job without having some strong “connection”, there are offers that allow employment in a regular way. The regular way refers to sending a CV and a motivation letter to an advertisement and then on a selection process of the candidates through numerous and extensive testing and interviews, in order to finally reach the goal. We all know that job interviews are quite stressful, but we should prepare ourselves before we go to the interview and try to look confident, decisive and professional and also we should show respect for the recruiter. Now, we will give you few useful tips that you should follow during the process of seeking a job, as well as on the interview.</p>
+<br>
+<br>
+  </div>
+</div>
+</div>     ///////////////////    Useful tips      /////////////////////           -->
+
+ <!-- About Us -->
+ <div class="container-fluid" id="fn-about">
+    <div class="row about_color">
+      <div class="col-md-6 text-center about-section">
+            <div class="about-item">
+            <p>Feron d.o.o. je najbrže rastuća kompanija za zapošljavanje u regionu. Svoju reputaciju
+                izradili smo obezbeđujući pouzdanu uslugu i visoko kvalifikovan stručni kadar.</p>
+                <p>
+                    U saradnji sa relevantnim institucijama I stručnim školama, tražimo kvalitetno radno
+                    osoblje za rad u nekim od najvećih svetskih kompanija.
+                </p>
+                <p>
+                    Pratimo našu viziju proširivanjem dnevne ponude i omogućavajuci kandidatima najbolje
+                    opcije za radna mesta gde će njihove kompetencije doći do izražaja.
+                </p>
+                <p>Agencija Feron ima licencu za zapošljavanje izdatu od strane Ministarstva rada
+                    Republike Srbije.</p>
+                <div class="col-md-6 vismis-left"><h2 class="section_main_title">Naša Vizija:</h2>
+                  <hr class="white">
+                <p class="center">Težimo da svakom kandidatu obezbedimo mogućnost za sticanje iskustva,
+                    rada i finansijske sigurnosti.</div>
+             <div class="col-md-6 vismis-right"><h2 class="section_main_title">Naša Misija</h2>
+              <hr class="white">
+              <p class="center">Feron d.o.o. je strateški partner kompanijama omogućavajući im da
+                  pronađu deo slagalice koji nedostaje kako bi oformili savrseni tim.</p></div>
+              <p class="lastabout">
+                  Srećni smo što Vam možemo pružiti priliku da život učinite uzudljivijim, da steknete
+                  nova iskustva, proputujete svet, upoznate nove kulture, steknete nova prijateljstva i
+                  zaradite u isto vreme.
+              </p>
+              <div class="img_tablet">
+                  <img  src="img/logotwo.jpg" alt="">    
+              </div>
+          </div>
+      </div>
+      <div class="about_img_color">
+      <div class="col-md-6" id="about_img"></div> 
+    </div>       
+    </div>
+  </div> 
+ 
+  <!-- Website Footer -->
+  
+  <footer id="tamno">
+  <div class="container-fluid tamno">
+    <div class="row">
+      <div class="col-sm-6 imgcenter footerimg">    
+  <br>
+  <br>
+  <br>        
+        <p class="footertext center"> <span class="red">Važno Obaveštenje:
+            </span>Pre dolaska u našu kancelariju neophodno je zakazati sastanak.
+            Želimo da izdvojimo dovoljno vremena kako bismo mogli da odgovorimo na sva Vaša
+            pitanja.</p>
+  <br>
+        <img src="img/aLogo-SMO-2011-2.jpg" alt="logo">
+  <br>
+  <p class="footertext center">Možete nas kontaktirati radnim danima od <span class="svetloplava">09-17h</span></p>
+  <hr class="white">
+  <br>    
+       
+      </div>
+        <div class="col-sm-6 center Feron_section">
+  <br>
+  <br>
+          <h1 class="feron"><span class="red">FERON</span> Kneza Miloša 28 Beograd 11000 Srbija</h1>
+          <h5 class="center"><i class="fone fas fa-phone"></i> &nbsp; +381 11 36 11 231 <br><br><i class="fone fas fa-phone"></i> &nbsp;+381 11 40 45 720</h5>       
+          <h5 class="kontakt">E-mail: &nbsp;<a href="#"> office@jobs-feron.com </a> <br><br> Web Site: &nbsp;<a href="www.feron.rs"> www.feron.com </a></h5>
+      <div class="social"> 
+        <ul>
+  <li><a href="https://www.facebook.com/feronemployment" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a title="feron.employment" href="https://www.instagram.com/feron.employment/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+  <li><a href="http://www.linkedin.com/company/2931225?trk=prof-exp-company-name" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <li><a class="button" href="#popup2"><i class="fa fa-skype" title="callferon"></i></a></li>
+  <li><a href="https://twitter.com/Feronemployment" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  </ul>
+  <!-- <br>
+  <br>
+    <div class="fn-section-link mobilearrow">
+      <i class="fas fa-arrow-up" href="#fn-header"></i>
+    </div> -->
+      </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+  <!-- MAP/Contact -->
+  <div class="container-fluid map-color">
+    <div class="row">
+      <div class="col-md-6 text-center" id="fn-contact">
+          <h3 class="feronblue">Postavite Pitanje</h3>
+          <hr class="white">
+          <p class="feronblue">Vaša email adresa neće biti objavljena. Markirana polja su obavezna *</p>
+        <form method="post" action="form/contactform.php">     
+          <input type="text" id="name" name="name" placeholder="Ime *" required>
+          <input type="email" id="email" name="email" placeholder="Email *" required>
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+          <textarea name="message" id="message" placeholder="Vaša Poruka" required></textarea>
+          <p id="success" style="color: green; font-size: 1.6rem; font-weight: bold; display: none; text-align: center; margin: 0;" class="greenSuccess">Poruka poslata!</p>
+          <button type="submit" id="sendForm" value="Submit" name="submit">Pošaljite Poruku</button>
+        </form>
+      </div>
+      <div class="col-md-6 no-padding">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.824641153017!2d20.456551315843306!3d44.804762279098654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a700788e75e1f%3A0xca97b9cca216b025!2sKneza+Milo%C5%A1a+28%2C+Beograd!5e0!3m2!1sen!2srs!4v1540164148116" width="600" height="480" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+     
+      <!-- CATCHY -->
+      <div class="catchy">
+        <br>
+       <img src="img/logoferonlightbluesmallnew.png" href="#fn-header" class="fn-section-link" alt="logo">
+        <p class="success">Vaša karijera počinje sa nama!</p>
+        <span>&copy; 2018 Aleksandar Milić All Rights Reserved.</span> 
+      </div>
+  
+  
+<script>
+
+  var accordions = document.getElementsByClassName("accordion-main");
+
+  for ( var i = 0; i < accordions.length; i++) {
+    accordions[i].onclick = function (){
+      this.classList.toggle('is-open');
+      var content = this.nextElementSibling;
+      
+      if (content.style.maxHeight){   
+        //otvara se     
+        content.style.maxHeight = null;
+      } else{
+        //zatvara se
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    }
+  }
+
+</script>
+<script>
+
+  var accordions = document.getElementsByClassName("accordion");
+
+  for ( var i = 0; i < accordions.length; i++) {
+    accordions[i].onclick = function (){
+      this.classList.toggle('is-open');
+      var content = this.nextElementSibling;
+      
+      if (content.style.maxHeight){   
+        //otvara se     
+        content.style.maxHeight = null;
+      } else{
+        //zatvara se
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    }
+  }
+
+</script>
+<script>
+
+    /* Scroll-to-Top Button */
+    $(window).scroll(function () {
+    if ($(this).scrollTop() > 800) {
+        $('.scrollup').fadeIn();
+    } else {
+        $('.scrollup').fadeOut();
+    }
+    });
+    
+    $('.scrollup').click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    }, 600);
+    return false;
+    });
+    
+</script>
+<script>
+
+    $("#sendForm").click(function(e){
+      e.preventDefault();
+      var email = $("#email").val();
+      var name = $("#name").val();
+      var subject = $("#subject").val();
+      var message = $("#message").val();
+      if(email == ''){
+        $("#email").addClass('error');
+      }
+      else{
+        $("#email").removeClass('error');
+      }
+      if(name == ''){
+        $("#name").addClass('error');
+      }
+      else{
+        $("#name").removeClass('error');
+      }
+      if(subject == ''){
+        $("#subject").addClass('error');
+      }
+      else{
+        $("#subject").removeClass('error');
+      }
+      if(message == ''){
+        $("#message").addClass('error');
+      }
+      else{
+        $("#message").removeClass('error');
+      }
+   
+      if(email != '' && name != '' && subject != '' && message != ''){
+        $.ajax({
+          method: "POST",
+          url: "form/contactform-jobs.php",
+          data: { email: email, name: name, subject: subject, message: message}
+        })
+            .done(function( msg ) {
+              console.log("Forma poslata!");
+              $("#success").show();
+            });
+      }
+    });
+  
+  </script>
+
+  <script>
+      window.sr = ScrollReveal({ mobile: false });
+      sr.reveal('.navbar', {
+        duration: 2000,
+        origin:'bottom'
+      });
+      sr.reveal('.showcase-left', {
+        duration: 2000,
+        origin:'left',
+        distance:'300px'
+      });
+      sr.reveal('.showcase-right', {
+        duration: 2000,
+        origin:'right',
+        distance:'300px'
+      });
+      sr.reveal('.showcase-btn', {
+        duration: 1000,
+        delay: 1000,
+        origin:'bottom'
+      });
+      sr.reveal('.showcase-btn-one', {
+          duration: 1500,
+          delay: 1500,
+          origin:'bottom',
+        });
+        sr.reveal('.showcase-btn-two', {
+          duration: 2000,
+          delay: 2000,
+          origin:'bottom',
+        });
+        sr.reveal('.showcase-btn-three', {
+          duration: 2500,
+          delay: 2500,
+          origin:'bottom',
+        });
+        sr.reveal('.showcase-btn-four', {
+          duration: 3000,
+          delay: 3000,
+          origin:'bottom',
+        });
+      sr.reveal('.button-anim', {
+        duration: 1000,
+        delay: 1000,
+        origin:'bottom'
+      });
+      sr.reveal('.info-left', {
+        duration: 2000,
+        origin:'left',
+        distance:'300px',
+        viewFactor: 0.2
+      });
+      sr.reveal('.info-right', {
+        duration: 2000,
+        origin:'right',
+        distance:'300px',
+        viewFactor: 0.2
+      });
+  </script>
+<script src="js/main.js"></script>
+
+	</body>
+</html>
+
